@@ -1,0 +1,2 @@
+Msg = "brij"
+print(Msg)
