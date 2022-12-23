@@ -151,5 +151,5 @@ elif path == "right":
                 )
             else:
                 print(
-                    "Spongebob tases you, and puts you into jail because he feels like it.\nYOU LOSE"
+                    "Spongebob tases you, and puts you into jail because you're a loser.\nYOU LOSE"
                 )
