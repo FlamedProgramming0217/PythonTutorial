@@ -4,7 +4,6 @@ window = turtle.Screen()
 
 #Sets background color and the title
 turtle.Screen().bgcolor('black')
-turtle.title("Cool circle animation")
 
 
 #Makes the turtle and assigns the order of the colors in the rainbow.
