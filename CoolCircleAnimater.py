@@ -1,12 +1,7 @@
-#Cool program that makes a circle color animation, something I just stumbled across when playing with the code.
+
 import turtle
 window = turtle.Screen()
-
-#Sets background color and the title
 turtle.Screen().bgcolor('black')
-
-
-#Makes the turtle and assigns the order of the colors in the rainbow.
 t = turtle.Turtle()
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 
