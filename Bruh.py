@@ -1,5 +1,6 @@
 #Cool program that makes a circle color animation, something I just stumbled across when playing with the code.
 import turtle
+window = turtle.Screen()
 
 #Sets background color and the title
 turtle.Screen().bgcolor('black')
@@ -46,3 +47,5 @@ for i in range(time):
     t.color(colors[i % 6])
     t.forward(size)
     t.left(59)
+
+window.exitonclick()
