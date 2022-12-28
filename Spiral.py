@@ -1,6 +1,7 @@
 import turtle
 window = turtle.Screen()
-turtle.Screen().bgcolor('black')
+background = ("What should the background color be?")
+turtle.Screen().bgcolor(background)
 t = turtle.Turtle()
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 speed = input("How fast do you want the spiral to draw? 0 is fastest.\n")
