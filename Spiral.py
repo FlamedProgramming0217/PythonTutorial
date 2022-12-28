@@ -18,6 +18,7 @@ while True:
     speed = input(
         "Incorrect answer, how long should the spiral draw? 500 is recommended.\n"
     )
+t.speed(speed)
 for i in range(time):
     t.color(colors[i % 6])
     t.forward(i)
