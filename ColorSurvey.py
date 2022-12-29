@@ -2,30 +2,29 @@ choices = ["red", "green", "blue", "black", "yellow", "orange", "purple", "pink"
 favorites = [ [choices[0]], [choices[1]], [choices[2]], [choices[3]], [choices[4]], [choices[5]], [choices[6]], [choices[7]], [choices[8]] ]
 
 while True:
-  
-  name = input("What is your name?\n")
-  fav_color = input("What is your favorite color?\n")
+    name = input("What is your name?\n")
+    fav_color = input("What is your favorite color?\n")
 
-  if fav_color == choices[0]:
-    favorites[0].append(name)
-  elif fav_color == choices[1]:
-    favorites[1].append(name)
-  elif fav_color == choices[2]:
-    favorites[2].append(name)
-  elif fav_color == choices[3]:
-    favorites[3].append(name)
-  elif fav_color == choices[4]:
-    favorites[4].append(name)
-  elif fav_color == choices[5]:
-    favorites[5].append(name)
-  elif fav_color == choices[6]:
-    favorites[6].append(name)
-  elif fav_color == choices[7]:
-    favorites[7].append(name)
-  elif fav_color == choices[8]:
-    favorites[8].append(name)
-  else:
-    break
+    if fav_color == choices[0]:
+      favorites[0].append(name)
+    elif fav_color == choices[1]:
+      favorites[1].append(name)
+    elif fav_color == choices[2]:
+      favorites[2].append(name)
+    elif fav_color == choices[3]:
+      favorites[3].append(name)
+    elif fav_color == choices[4]:
+      favorites[4].append(name)
+    elif fav_color == choices[5]:
+      favorites[5].append(name)
+    elif fav_color == choices[6]:
+      favorites[6].append(name)
+    elif fav_color == choices[7]:
+      favorites[7].append(name)
+    elif fav_color == choices[8]:
+      favorites[8].append(name)
+    else:
+      break
 
 t = turtle.Turtle()
 t.speed(0)
