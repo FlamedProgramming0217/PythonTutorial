@@ -6,25 +6,25 @@ while True:
     fav_color = input("What is your favorite color?\n")
 
     if fav_color == choices[0]:
-      favorites[0].append(name)
+        favorites[0].append(name)
     elif fav_color == choices[1]:
-      favorites[1].append(name)
+        favorites[1].append(name)
     elif fav_color == choices[2]:
-      favorites[2].append(name)
+        favorites[2].append(name)
     elif fav_color == choices[3]:
-      favorites[3].append(name)
+        favorites[3].append(name)
     elif fav_color == choices[4]:
-      favorites[4].append(name)
+        favorites[4].append(name)
     elif fav_color == choices[5]:
-      favorites[5].append(name)
+        favorites[5].append(name)
     elif fav_color == choices[6]:
-      favorites[6].append(name)
+        favorites[6].append(name)
     elif fav_color == choices[7]:
-      favorites[7].append(name)
+        favorites[7].append(name)
     elif fav_color == choices[8]:
-      favorites[8].append(name)
+        favorites[8].append(name)
     else:
-      break
+        break
 
 t = turtle.Turtle()
 t.speed(0)
