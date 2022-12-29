@@ -1,3 +1,4 @@
+import turtle
 choices = ["red", "green", "blue", "black", "yellow", "orange", "purple", "pink", "brown"]
 favorites = [ [choices[0]], [choices[1]], [choices[2]], [choices[3]], [choices[4]], [choices[5]], [choices[6]], [choices[7]], [choices[8]] ]
 
