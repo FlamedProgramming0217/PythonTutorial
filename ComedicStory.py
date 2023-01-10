@@ -6,9 +6,9 @@ print("\nYou awaken in a dark cave. Your friend " + friend +
 print(friend + ": You're finally awake! We have to find a way to get home!")
 print("You grab your " + weapon + " and find a way to get home.")
 print(
-  "There are three paths in front of you that lead into the cave. There is a demonic laughing sound that seems to be coming from the room to the left. The room on the right has thousands of bats hanging above, and passage in front of you has some Tabasco sauce sitting in the middle of the floor."
+  "There are four paths in front of you that lead into the cave. There is a demonic laughing sound that seems to be coming from the room to the left. The room on the right has thousands of bats hanging above, the passage in front of you has some Tabasco sauce sitting in the middle of the floor, and the passage that goes deeper under the cave looks futuristic, as the walls are lined with robotic stuff."
 )
-path = input("Do you go left, right, or forward? ")
+path = input("Do you go left, right, forward, or down?\n")
 if path == "left":
   print(
     "You go to the left and see some cartoon cavemen drawings on the walls. Looks like someone lives here\n"
@@ -220,4 +220,12 @@ elif path == "forward":
 
     else:
       print("You desperately try to kill the goldfish with your " + weapon +
-            ", but you get killed anyways.\nNever doubt Tabasco sauce...")
+            ", but you get killed anyways.\nNever doubt Tabasco sauce")
+if path == "down":
+    print("You walk down the futuristic path, thinking nothing bad is going to happen, when the robots suddenly come to life. On their chests, it says that they are not waterproof. Weird, why would anyone put a lable on a robot saying its not waterproof.\n")
+    print("You pull out your" + weapon + " and try to hold them off(" + friend + ")also tries to help by bonking over the head, and nothing works. You look around you to see if there is anything else you can do, and you see a glass showing the outside, which is full of coral and sharks. You realize that you are actually underwater...\n")
+    print("You look to your left, and you see a few really cool weapons that have the label: DO NOT TOUCH. DEATH IS INVETIBLE.\n")
+    water_or_weapon = input("Do you want to take the weapon and get out of here, or break the glass and kill the robots?")
+    if water_or_weapon == "break":
+        print("You broke the glass and water rushes in, the robots panic and run away, and, of course, you also run away, because who wants to be eaten by sharks and drown?\n")
+        print("Rushing down the path with" + friend + ", you see two paths in front of you,")
