@@ -228,4 +228,9 @@ if path == "down":
     water_or_weapon = input("Do you want to take the weapon and get out of here, or break the glass and kill the robots?")
     if water_or_weapon == "break":
         print("You broke the glass and water rushes in, the robots panic and run away, and, of course, you also run away, because who wants to be eaten by sharks and drown?\n")
-        print("Rushing down the path with" + friend + ", you see two paths in front of you,")
+        print("Rushing down the path with" + friend + ", you see two paths in front of you, the one on the left is a path that is going up, while the one on the right is going even deeper into the cave, with a airtight waterproof door that can be closed with a red button.\n")
+        down_up = input("Do you want to go down or up?")
+        if down_up == "up":
+          print("You go up the path, and you are cornered by those panicked robots you met earlier. This time, they don't hesitate.\nYOU LOSE")
+        elif down_up == "down":
+          print("You go down the pt")
