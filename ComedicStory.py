@@ -6,9 +6,9 @@ print("\nYou awaken in a dark cave. Your friend " + friend +
 print(friend + ": You're finally awake! We have to find a way to get home!")
 print("You grab your " + weapon + " and find a way to get home.")
 print(
-  "There are four paths in front of you that lead into the cave. There is a demonic laughing sound that seems to be coming from the room to the left. The room on the right has thousands of bats hanging above, the passage in front of you has some Tabasco sauce sitting in the middle of the floor, and the passage that goes deeper under the cave looks futuristic, as the walls are lined with robotic stuff."
+  "There are five paths in front of you that lead into the cave. There is a demonic laughing sound that seems to be coming from the room to the left. The room on the right has thousands of bats hanging above, the passage in front of you has some Tabasco sauce sitting in the middle of the floor, and the passage that goes deeper under the cave looks futuristic, as the walls are lined with robotic stuff, and a ladder that goes up the cave has comlete darkness..."
 )
-path = input("Do you go left, right, forward, or down?\n")
+path = input("Do you go left, right, forward, down, or up?\n")
 if path == "left":
   print(
     "You go to the left and see some cartoon cavemen drawings on the walls. Looks like someone lives here\n"
@@ -233,4 +233,4 @@ if path == "down":
         if down_up == "up":
           print("You go up the path, and you are cornered by those panicked robots you met earlier. This time, they don't hesitate.\nYOU LOSE")
         elif down_up == "down":
-          print("You go down the pt")
+          print("You go down the path and ")
